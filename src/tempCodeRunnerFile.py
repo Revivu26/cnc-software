@@ -1,1 +1,0 @@
-self.consoleEdit.setTextInteractionFlags(Qt.TextSelectableByKeyboard | Qt.TextSelectableByMouse)

@@ -12,7 +12,6 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.ui = uic.loadUi('mainwindow.ui', self)
         self.mainTabs.setCurrentIndex(1)
-        #self.consoleEdit.setTextInteractionFlags(Qt.TextSelectableByKeyboard | Qt.TextSelectableByMouse)
         self.GetCOMPorts()
 
     def GetCOMPorts(self):
